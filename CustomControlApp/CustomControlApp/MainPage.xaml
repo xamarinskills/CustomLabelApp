@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CustomControlApp"
+             xmlns:control="clr-namespace:CustomControlApp"
+             x:Class="CustomControlApp.MainPage">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <control:CustomLabel FontSize="14.5"
+                                      CurvedBackgroundColor="#6DB040"
+                                      TextColor="White"
+                                      Text="Custom Label"
+                                      HorizontalOptions="FillAndExpand"
+                                      CurvedCornerRadius="16"
+                                      HeightRequest="40"
+                                      VerticalTextAlignment="Center"
+                                      HorizontalTextAlignment="Center"/>
+            <Label Text="Simple Label" 
+               HeightRequest="40"
+               VerticalTextAlignment="Center" 
+               BackgroundColor="Gray"
+               HorizontalTextAlignment="Center"/>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
